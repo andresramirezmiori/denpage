@@ -1,6 +1,6 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full:latest
 
-USER root
+#USER root
 
 # optional: use a custom Nginx config.
 COPY nginx.conf /etc/nginx/nginx.conf
